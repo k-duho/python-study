@@ -11,7 +11,8 @@ Run this command
 export DOCKER_DEFAULT_PLATFORM=linux/amd64
 ```
 
-Build docker image again
+
+Builds all services and removes any undefined services
 
 ```sh
 docker compose -f local.yml up --build -d --remove-orphans
